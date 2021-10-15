@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+        <div>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <div class="contact">
+        <h1>Contact Us</h1>
+
+        <div class="contact-grid">
+            <div class="left">
+                <h1>Easy contact</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac neque dictum diam sem placerat donec
+                    rhoncus odio. Interdum hendrerit augue morbi tempus in scelerisque.
+                </p>
+            </div>
+            <div class="right">
+                <form onSubmit="SubmitMessage(); return false">
+                    <input type="text" placeholder="Full Name" id="fullName"/>
+                    <input type="email" placeholder="Email" id="email"/>
+                    <textarea name="message" placeholder="Message" cols="30" rows="4" id="message"></textarea>
+                    <input type="submit" value="Send Message"/>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+.contact {
+    width: 100%;
+}
+
+.contact > h1 {
+    text-align: center;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 50px;
+    row-gap: 50px;
+    width: 791px;
+    margin: 0 auto;
+    margin-top: 5em;
+
+}
+
+@media (max-width: 768px) {
+    .contact-grid {
+        width: 80%;
+    }
+}
+
+.contact-grid .left {
+}
+
+.contact-grid .left  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+    align-items: left;
+    color: #000000;
+}
+
+.contact-grid .left  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+form {
+    width: 400px;
+    height: 359px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+
+form input[type=text], input[type=email] {
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 16px;
+}
+
+form textarea {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 16px;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 43px;
+    left: 642px;
+    top: 6035px;
+    background: #000000;
+    border-radius: 5px;
+    color: white;
+    border: none
+}

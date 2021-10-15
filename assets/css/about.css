@@ -1,0 +1,26 @@
+.about {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}  
+
+.about img {
+    height: 300px;
+    object-fit: cover;
+    width: 300px;
+    object-position: top;
+    border-radius: 50%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.about h4 {
+    color: rgb(255, 106, 106);
+    font-size: 25px;
+}
+
+.about p {
+    width: 60%;
+    margin-top: 3em;
+    text-align: center;
+}
